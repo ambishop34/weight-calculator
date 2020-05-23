@@ -1,0 +1,12 @@
+# designing a simple bmi calculator to check a person's weight
+name = "Nathan"
+height_m = 182
+weight_kg = 85
+
+bmi = weight_kg / (height_m ** 2)
+print("bmi: ")
+print("bmi")
+if bmi < 30:
+    print(name, "is not overweight")
+else:
+    print(name, "is overweight")
